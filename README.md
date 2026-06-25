@@ -1,4 +1,4 @@
-# 🤖 RAG-Powered AI Study Assistant
+# RAG-Powered AI Study Assistant
 
 **LLMs · Vector Databases · LlamaIndex**
 
