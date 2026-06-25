@@ -1,0 +1,23 @@
+# ---- GenAI Stack: LlamaIndex + FAISS + Ollama + Streamlit ----
+
+# Core orchestration / RAG framework
+llama-index-core>=0.11.0
+
+# Ingestion: file readers (pdf, docx, csv, md, ...)
+llama-index-readers-file>=0.2.0
+pypdf>=4.0.0
+docx2txt>=0.8
+
+# Embeddings: local HuggingFace models (run on CPU, no API key)
+llama-index-embeddings-huggingface>=0.3.0
+sentence-transformers>=2.6.0
+
+# Vector store: FAISS (local, file-based similarity search)
+llama-index-vector-stores-faiss>=0.2.0
+faiss-cpu>=1.8.0
+
+# Generation: open-source LLMs (Mistral / Qwen) served locally by Ollama
+llama-index-llms-ollama>=0.3.0
+
+# UI
+streamlit>=1.33.0

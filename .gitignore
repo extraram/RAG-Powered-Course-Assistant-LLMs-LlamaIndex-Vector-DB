@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+langchain_env/
+langchainenv/
+
+# Environment / secrets
+.env
+
+# Generated RAG artifacts (vector indexes are rebuilt from source docs)
+data/vector_stores/
+data/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
